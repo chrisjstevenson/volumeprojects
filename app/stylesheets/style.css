@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'apropasskbold';
+    font-family: 'apropa';
     src: url('font.eot');
     src: url('font.eot?#iefix') format('embedded-opentype'),
     url('font.woff') format('woff'),
@@ -7,7 +7,6 @@
     url('font.svg#apropasskbold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body
@@ -18,12 +17,15 @@ body
     font-family: Arial, sans-serif;
     letter-spacing: .1em;
     line-height: 1.5em;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1
 {
     color: #fff;
-    font-family: "apropasskbold";
+    font-family: "apropa";
     font-size: 2.3em;
     letter-spacing: .1em;
     line-height: 1.2em;
@@ -49,18 +51,6 @@ h4
     color: #fff;
     font-size: 16px;
     font-weight:normal;
-}
-
-a
-{
-    color: #fff;
-    text-decoration: none;
-}
-
-a:hover
-{
-    color: #fff;
-    text-decoration: underline;
 }
 
 img
@@ -92,8 +82,35 @@ p a:hover
 
 ul
 {
-    padding-left: 30px;
+    list-style-type: none;
 }
+
+.header a {
+    font-family: "apropa";
+    font-size: 12pt;
+    color: #000!important;
+    text-decoration: none;
+}
+
+.header > img {
+    vertical-align: text-top;
+}
+
+.nav-menu {
+    float: right;
+    margin-right: 74%;
+}
+
+.nav-menu > ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*
+ older css
+*/
 
 div#GlobalPage
 {
@@ -165,7 +182,7 @@ div#NavigationMenu
 div#NavigationMenu > a
 {
     color: #000;
-    font-family: 'apropasskbold';
+    font-family: 'apropa';
 }
 
 div.Static
