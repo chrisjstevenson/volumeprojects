@@ -106,7 +106,39 @@ ul
     padding: 0;
 }
 
+.container {
 
+    margin-left: 12.5%;
+    margin-right: 3%;
+}
+
+.content {
+    float: left;
+    background-color: #000;
+}
+
+.col1 {
+    color: #fff;
+    float:left;
+    width: 40%;
+    position: relative;
+    overflow: hidden;
+}
+
+.col2 {
+    color: #fff;
+    float:left;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.col1 {
+    padding-top: 35px;
+    padding-left: 70px;
+    padding-right: 45px;
+    padding-bottom: 70px;
+}
 
 /*
  older css
@@ -128,18 +160,6 @@ div#contentWrapper
     width: 1400px;
 }
 
-div#PageHeader
-{
-    float: left;
-    margin: 0 auto 0 auto;
-    position: relative;
-    width: 255px;
-}
-
-div#PageHeader > img
-{
-    vertical-align: text-top;
-}
 
 div#contentBody
 {
