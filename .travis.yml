@@ -9,5 +9,5 @@ node_js:
 
 before_install:
   - docker build -t chrisjstevenson/volumizr-web-app .
-  - docker run -d -p 9005:9005
+  - docker run -p 9005:8080 -d chrisjstevenson/volumizr-web-app
   - docker ps -a
