@@ -10,4 +10,5 @@ node_js:
 before_install:
   - docker build -t chrisjstevenson/volumizr-web-app .
   - docker run -p 9005:8080 -d chrisjstevenson/volumizr-web-app
-  - docker ps -a
+  - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker push chrisjstevenson/volumizr-web-app
