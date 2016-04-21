@@ -10,7 +10,7 @@
       docker:
         name: volumizr-web-app
         image: chrisjstevenson/volumizr-web-app
-        state: started
+        state: reloaded
         restart_policy: always
         ports:
           - "8080:8080"
